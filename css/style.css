@@ -376,12 +376,20 @@ select {
 	width: 457px;
 }
     
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { /*!*/
+input::-webkit-input-placeholder, 
+textarea::-webkit-input-placeholder { 
 	color: #fff;  
 }
 
-input:focus, textarea:focus, select:focus {
-	outline: none;  /*!*/
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+	color: #fff;
+}
+
+input:focus, 
+textarea:focus, 
+select:focus {
+	outline: none; 
 }
 
 .form__pickers {
