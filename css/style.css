@@ -30,6 +30,10 @@ select {
 	margin-bottom: 54px;
 }
 
+.cursor-pointer {
+	cursor: pointer;
+}
+
 .header-top {
 	min-height: 231px;
 }
@@ -358,7 +362,6 @@ select {
 .form__btn {
 	background-color: transparent;  /*!*/
 	align-self: flex-end;
-	cursor: pointer;
 }
 
 .form__input-item, 
@@ -393,14 +396,9 @@ input:focus, textarea:focus, select:focus {
 	background-position: 98px center;
 }
 
-.form__datepicker:hover, .form__timepicker:hover, .form__select:hover {
-	cursor: pointer;
-}
-
 .datepicker--day-name {
     color: #4183d7;
 }
-
 
 .form__timepicker {
 	width: 141px;
@@ -477,10 +475,6 @@ input:focus, textarea:focus, select:focus {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-}
-
-.form__dropdown-title:hover {
-	cursor: pointer;
 }
 
 .form__textarea {
@@ -711,7 +705,6 @@ input:focus, textarea:focus, select:focus {
     border: 1px;
     position: absolute;
     right: 65px;
-    cursor: pointer;
 }
 
 .contacts__btn:focus {
