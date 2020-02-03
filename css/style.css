@@ -34,6 +34,10 @@ select {
 	cursor: pointer;
 }
 
+.outline-none {
+	outline: none;
+}
+
 .header-top {
 	min-height: 231px;
 }
@@ -374,6 +378,7 @@ select {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	width: 457px;
+	outline: none;
 }
     
 input::-webkit-input-placeholder, 
@@ -384,12 +389,6 @@ textarea::-webkit-input-placeholder {
 input::-moz-placeholder,
 textarea::-moz-placeholder {
 	color: #fff;
-}
-
-input:focus, 
-textarea:focus, 
-select:focus {
-	outline: none; 
 }
 
 .form__pickers {
@@ -713,10 +712,6 @@ select:focus {
     border: 1px;
     position: absolute;
     right: 65px;
-}
-
-.contacts__btn:focus {
-	outline: none;
 }
 
 .contacts__logos {
