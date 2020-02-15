@@ -26,6 +26,12 @@ select {
     appearance: none;
 }
 
+input {
+	-webkit-appearance: none;
+	-webkit-border-radius: none;
+	border-radius: 0;
+}
+
 .text {
 	margin-bottom: 54px;
 }
@@ -1570,10 +1576,6 @@ textarea::-moz-placeholder {
 
 	.header-inner__numbers {
     	width: 116px;
-	}
-
-	.header-menu__list {
-    	margin-bottom: 33px;
 	}
 
 	.slick-list {
